@@ -1,1 +1,6 @@
-1st code
+no = eval(input("enter a no. : "))
+str = eval(input("enter starting no. : "))
+en = eval(input("enter finishing no. : "))
+for i in range (str,en) :
+    ans=no*i
+    print(no,"*",i,"*",ans)
